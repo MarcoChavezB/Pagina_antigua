@@ -1,4 +1,7 @@
 *{
+
+    font-family: 'Asap', sans-serif;
+    color: black;
     margin: 0;
     border: 1px solid black !important;
 }
@@ -35,21 +38,27 @@
     height: 6em;
 }
 
-#aside1 .carro1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#aside1 .carro1 img{
+#aside1 img{
     width: 80px;
-    background-color: yellow;;
 }
 
-#aside1 .info li{
+ li{
     display: flex;
     list-style: none;
 }
+
+#aside1 .carros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#aside1 .princip h1{
+    justify-content: center;
+}
+
+
+
 
 
