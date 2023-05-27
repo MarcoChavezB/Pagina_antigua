@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    background-color: #252424;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+}
+.grid-container div{
+    border: 1px solid black !important;
+}
